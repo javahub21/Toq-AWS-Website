@@ -1,0 +1,118 @@
+
+* {
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(JuliettBold-vndlO.ttf);
+     }
+ 
+* {
+    font-family: myFirstFont;
+ }
+
+body {
+    background-color: rgba(0, 1, 2, 0.979);
+    background-image:url('images/darth2.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px 30px; 
+  }
+
+h1 {
+     color: rgb(138,43,226);
+     margin: 30px 0px 0px 0px;
+ }
+
+h3 {
+    color:white;
+    margin: 30px 0px 0px 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+             
+li {
+    float: left;
+    padding: 0px; 
+    margin: 0px;
+    width: 20%;
+}
+             
+li a, .dropbtn {
+    display: block;
+    color: rgb(138,43,226);
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    
+}
+             
+li a:hover, .dropdwn:hover .dropbtn {
+    background-color: #111111;
+}
+
+/* start of drop down menu */
+
+li.dropdwn {
+    display: inline-block;
+}
+
+.dropdwn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: auto;
+    padding: 0px;
+  }
+  
+.dropdwn-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdwn-content a:hover {background-color: #f1f1f1;}
+  
+.dropdwn:hover .dropdwn-content {
+    display: block;
+}
+
+/* End of drop down menu */
+
+li a.active {
+    background-color: rgb(119, 221, 119);
+    color: white;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #111111;
+    color: white;
+  }
+
+p {
+    color: rgb(119, 221, 119);
+    margin: 15px 0px 0px 10px;
+    padding: 0px 85px 0px 0px;
+}
+
+dl {
+    color:white;
+    padding: 0px 85px 0px 0px;
+}
+
+.hyperlink {
+    color:blueviolet;
+}
